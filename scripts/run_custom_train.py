@@ -11,6 +11,8 @@ import os
 import copy
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+print(device, flush=True)
+
 
 import sys
 import os
