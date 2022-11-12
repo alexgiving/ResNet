@@ -8,7 +8,7 @@ classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 def data_loader(data_dir,
                 batch_size,
                 shuffle=True,
-                num_workers=4,
+                num_workers=1,
                 ):
 
     # define transforms
